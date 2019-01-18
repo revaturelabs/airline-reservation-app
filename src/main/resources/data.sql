@@ -1,0 +1,54 @@
+-- CUSTOMERS
+insert into CUSTOMER (customer_id, first_name, last_name) values (1, 'Gabriele', 'Doddemeede');
+insert into CUSTOMER (customer_id, first_name, last_name) values (2, 'Jonathon', 'Jee');
+insert into CUSTOMER (customer_id, first_name, last_name) values (3, 'Verine', 'Caton');
+insert into CUSTOMER (customer_id, first_name, last_name) values (4, 'Nicolai', 'Le Sarr');
+insert into CUSTOMER (customer_id, first_name, last_name) values (5, 'Christoffer', 'Aughton');
+insert into CUSTOMER (customer_id, first_name, last_name) values (6, 'Tye', 'Collcutt');
+insert into CUSTOMER (customer_id, first_name, last_name) values (7, 'Eloisa', 'Loxton');
+insert into CUSTOMER (customer_id, first_name, last_name) values (8, 'Donn', 'Soars');
+insert into CUSTOMER (customer_id, first_name, last_name) values (9, 'Roddie', 'Jehaes');
+insert into CUSTOMER (customer_id, first_name, last_name) values (10, 'Verna', 'Rivers');
+insert into CUSTOMER (customer_id, first_name, last_name) values (11, 'Drusie', 'Gonin');
+insert into CUSTOMER (customer_id, first_name, last_name) values (12, 'Fairfax', 'Pestor');
+insert into CUSTOMER (customer_id, first_name, last_name) values (13, 'Gypsy', 'Reynard');
+insert into CUSTOMER (customer_id, first_name, last_name) values (14, 'Renie', 'Heeps');
+insert into CUSTOMER (customer_id, first_name, last_name) values (15, 'Jeanette', 'Gucustomer_idelli');
+insert into CUSTOMER (customer_id, first_name, last_name) values (16, 'Rosalinde', 'McDunlevy');
+insert into CUSTOMER (customer_id, first_name, last_name) values (17, 'Juditha', 'Waldera');
+insert into CUSTOMER (customer_id, first_name, last_name) values (18, 'Bettina', 'Brockington');
+insert into CUSTOMER (customer_id, first_name, last_name) values (19, 'Chastity', 'Soulsby');
+insert into CUSTOMER (customer_id, first_name, last_name) values (20, 'Sharron', 'Twelvetrees');
+insert into CUSTOMER (customer_id, first_name, last_name) values (21, 'Antonino', 'Birden');
+insert into CUSTOMER (customer_id, first_name, last_name) values (22, 'Gaile', 'Spacey');
+insert into CUSTOMER (customer_id, first_name, last_name) values (23, 'Helli', 'Hyne');
+insert into CUSTOMER (customer_id, first_name, last_name) values (24, 'Pansy', 'Lawn');
+insert into CUSTOMER (customer_id, first_name, last_name) values (25, 'Bryon', 'Allwright');
+
+
+-- FLIGHTS
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (1, 'Chrysoúpolis', 'Boñgalon', 127.6);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (2, 'Rossosh’', 'Guamal', 930.98);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (3, 'Carot', 'Kilifi', 42.73);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (4, 'Pallisa', 'Dachang', 935.43);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (5, 'Angelochóri', 'Ketawang', 988.17);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (6, 'Ipoh', 'Sagana', 34.28);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (7, 'Bongandanga', 'Otun', 788.2);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (8, 'Somita', 'Kafr Şaqr', 118.09);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (9, 'Dami', 'Jasieniec', 686.96);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (10, 'Sindangsari', 'Paris 20', 416.36);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (11, 'Pa Phayom', 'Banjar Banyuning Barat', 721.18);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (12, 'Ribeirão Preto', 'Mira', 867.85);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (13, 'Babatngon', 'Åkersberga', 422.43);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (14, 'Paagahan', 'Magsaysay', 437.5);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (15, 'Rudnya', 'Golug', 883.84);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (16, 'Marićka', 'Granja', 754.1);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (17, 'São Luiz Gonzaga', 'Staryy Togul', 973.7);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (18, 'Tejakalapa', 'Bačka Topola', 875.04);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (19, 'Arras', 'Vetlanda', 289.46);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (20, 'Bandaragung', 'Kyshtym', 685.27);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (21, 'Sakura', 'Calde', 172.03);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (22, 'Xiji', 'Delgado', 858.06);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (23, 'Javalera', 'Zachepylivka', 981.63);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (24, 'Qiqin', 'Zevgolateió', 161.87);
+insert into FLIGHT (flight_no, destination, depart, ticket_price) values (25, 'Sumberbening', 'Iperó', 658.93);
