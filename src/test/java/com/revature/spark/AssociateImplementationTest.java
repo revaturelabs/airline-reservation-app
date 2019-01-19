@@ -18,16 +18,16 @@ public class AssociateImplementationTest {
 	static AssociateImplementation testObj = new AssociateImplementation();
 	static double precision = 0.01; // the "delta" used to measure the precision of the tests
 		
-	List<Flight> flightListEven;
-	List<Flight> flightListOdd;
-	Map<Flight, Double> customerTotals;
+	static List<Flight> flightListEven;
+	static List<Flight> flightListOdd;
+	static Map<Flight, Double> customerTotals;
 	
-	Customer custA = new Customer(1, "Alpha", "Adams");
-	Customer custB = new Customer(2, "Beta", "Belarus");
-	Customer custC = new Customer(3, "Charlie", "Cordray");
+	static Customer custA = new Customer(1, "Alpha", "Adams");
+	static Customer custB = new Customer(2, "Beta", "Belarus");
+	static Customer custC = new Customer(3, "Charlie", "Cordray");
 	
 	@BeforeClass
-	public void generateData() {
+	public static void generateData() {
 		flightListEven = new ArrayList<>();
 		
 		// even test case
@@ -77,8 +77,8 @@ public class AssociateImplementationTest {
 	
 	@Test
 	public void medianTest(){
-		double medianEven = 0;
-		double medianOdd = 0;
+		double medianEven = 200.36;
+		double medianOdd = 309.52;
 		double testMedianEven = testObj.median(flightListEven);
 		assertEquals(medianEven, testMedianEven, precision);
 		double testMedianOdd = testObj.median(flightListOdd);
